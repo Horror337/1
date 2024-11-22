@@ -4,3 +4,5 @@ git status
 create a .gitignore file for ignoring files
 git add -A
 git commit -m 'message is app done'
+## for updating code and push again should do last 2 job every time
+and in left bottom vscocde if ur vscode login in git u can publish ez

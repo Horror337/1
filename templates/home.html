@@ -1,4 +1,14 @@
 {% extends 'base.html' %}
 {% block content %}
 <h2>Home page</h2>
+<h3>list of models:</h3>
+<div class="list-group">
+        {% for message in testdatabase_list %}
+        
+        <a href="#" class="list-group-item list-group-item-action active">{{message.text}}</a>
+            
+        {% endfor %}
+    </div>
+   
+      
 {% endblock content %}
