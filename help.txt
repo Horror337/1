@@ -1,0 +1,6 @@
+git help:
+git init
+git status
+create a .gitignore file for ignoring files
+git add -A
+git commit -m 'message is app done'
